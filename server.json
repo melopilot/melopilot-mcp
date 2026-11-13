@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.melopilot/piano-pilot",
+  "title": "Piano Pilot",
+  "description": "Search piano songs, read your practice plan and progress, and make practice pieces in Piano Pilot.",
+  "version": "1.0.0",
+  "websiteUrl": "https://melopilot.com",
+  "repository": {
+    "url": "https://github.com/melopilot/melopilot-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.melopilot.com/mcp"
+    }
+  ]
+}
