@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "piano-pilot": {
+      "type": "http",
+      "url": "https://api.melopilot.com/mcp"
+    }
+  }
+}
